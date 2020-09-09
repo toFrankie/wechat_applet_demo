@@ -1,0 +1,22 @@
+{
+	"files.associations": {
+		"*.wxss": "css",
+		"*.wxs": "javascript",
+		"*.acss": "css",
+		"*.axml": "html",
+		"*.wxml": "html",
+		"*.swan": "html"
+	},
+	"files.trimTrailingWhitespace": true,
+	"eslint.workingDirectories": [{ "mode": "auto" }],
+	"eslint.enable": true, // 是否开启 vscode 的 eslint
+	"eslint.options": {
+		// 指定 vscode 的 eslint 所处理的文件的后缀
+		"extensions": [".js", ".ts", ".tsx"]
+	},
+	"eslint.validate": ["javascript"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"git.ignoreLimitWarning": true
+}
