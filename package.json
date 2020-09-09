@@ -1,0 +1,27 @@
+{
+  "name": "wechat_applet_demo",
+  "version": "1.0.0",
+  "description": "微信小程序 Demo",
+  "main": "app.js",
+  "repository": "git@github.com:toFrankie/wechat_applet_demo.git",
+  "author": "Frankie <1426203851@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ./ --ext .js",
+    "eslint:fix": "eslint --fix ./ --ext .js",
+    "prettier:fix": "prettier --config .prettierrc.js --write './**/*.{js,css,less,scss,json}'",
+    "format:css": "gulp",
+    "format:all": "npm-run-all -p format format-css -s lint-fix"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.7.1",
+    "eslint-config-alloy": "3.7.1",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "prettier": "2.0.5",
+    "prettier-eslint-cli": "5.0.0"
+  }
+}
