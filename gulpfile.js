@@ -15,7 +15,7 @@ const wxssPrettier = () => {
       debug()
     )
     .pipe(
-      // 重写扩展名为 css，才能被 Prettier 识别
+      // 重写扩展名为 css，才能被 Prettier 识别解析
       rename({
         extname: '.css'
       })
