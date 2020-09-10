@@ -15,7 +15,7 @@
     "format:wxss": "gulp wxss",
     "format:accs": "gulp acss",
     "format:css": "gulp all",
-    "format:all": "npm-run-all -p format format-css -s lint-fix"
+    "format:all": "npm-run-all -p format:css prettier:fix -s lint-fix"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
@@ -28,7 +28,15 @@
     "gulp-debug": "4.0.0",
     "gulp-prettier": "3.0.0",
     "gulp-rename": "2.0.0",
+    "husky": "4.3.0",
+    "npm-run-all": "4.1.5",
     "prettier": "2.0.5",
     "prettier-eslint-cli": "5.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   }
 }
