@@ -7,9 +7,7 @@ const config = require('./.prettierrc')
 
 // wxss 一键格式化
 const wxssPrettier = () => {
-  return src(
-    './**/*.wxss'
-  )
+  return src('./**/*.wxss')
     .pipe(
       // 可以利用插件，查看一些 debug 信息
       debug()
@@ -38,28 +36,20 @@ const wxssPrettier = () => {
 
 // acss 一键格式化
 const acssPrettier = () => {
-  return src(
-    './**/*.acss'
-  )
-    .pipe(
-      debug()
-    )
+  return src('./**/*.acss')
+    .pipe(debug())
     .pipe(
       rename({
         extname: '.css'
       })
     )
-    .pipe(
-      prettier(config)
-    )
+    .pipe(prettier(config))
     .pipe(
       rename({
         extname: '.acss'
       })
     )
-    .pipe(
-      dest(__dirname)
-    )
+    .pipe(dest(__dirname))
 }
 
 // 这里导出多个 task，通过 gulp xxx 就能来调用了，如 gulp all
