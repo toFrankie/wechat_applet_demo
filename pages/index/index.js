@@ -11,6 +11,7 @@ Page({
   },
   // 事件处理函数
   bindViewTap: function () {
+    a = { name:'Frnkie', age: 20}
     wx.navigateTo({
       url: '../logs/logs'
     })
