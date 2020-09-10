@@ -4,7 +4,8 @@
 
 本项目说明放在[简书](https://www.jianshu.com/u/f4dac74bd955)更新：
 
-* [搭建小程序ESLint、Prettier一键格式化场景](https://www.jianshu.com/p/5ab7b4b48964)
+* [使Prettier一键格式化WXSS（上集）](https://www.jianshu.com/p/5ab7b4b48964)
+* [使Prettier一键格式化WXSS（下集）](https://www.jianshu.com/p/0f7ba22d18cd)
 
 <hr/>
 
