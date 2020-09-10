@@ -12,7 +12,9 @@
     "eslint": "eslint ./ --ext .js",
     "eslint:fix": "eslint --fix ./ --ext .js",
     "prettier:fix": "prettier --config .prettierrc.js --write './**/*.{js,css,less,scss,json}'",
-    "format:css": "gulp",
+    "format:wxss": "gulp wxss",
+    "format:accs": "gulp acss",
+    "format:css": "gulp all",
     "format:all": "npm-run-all -p format format-css -s lint-fix"
   },
   "devDependencies": {
@@ -21,6 +23,11 @@
     "eslint-config-alloy": "3.7.1",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-prettier": "3.1.4",
+    "gulp": "4.0.2",
+    "gulp-clean": "0.4.0",
+    "gulp-debug": "4.0.0",
+    "gulp-prettier": "3.0.0",
+    "gulp-rename": "2.0.0",
     "prettier": "2.0.5",
     "prettier-eslint-cli": "5.0.0"
   }
