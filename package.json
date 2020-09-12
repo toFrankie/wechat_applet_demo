@@ -36,7 +36,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run format:all"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix --ext .js"
   }
 }
