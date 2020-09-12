@@ -40,6 +40,10 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --fix --ext .js"
+    "*.js": [
+      "prettier --config .prettierrc.js --write",
+      "eslint --fix --ext .js"
+    ],
+    "*.json": "prettier --config .prettierrc.js --write"
   }
 }
