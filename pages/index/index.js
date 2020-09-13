@@ -16,8 +16,6 @@ Page({
     })
   },
   onLoad: function () {
-    console.log('pre-commit test')
-    console.log('pre-commit test')
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
