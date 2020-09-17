@@ -6,6 +6,9 @@
 
 * [使Prettier一键格式化WXSS（上集）](https://www.jianshu.com/p/5ab7b4b48964)
 * [使Prettier一键格式化WXSS（下集）](https://www.jianshu.com/p/0f7ba22d18cd)
+* [使Prettier一键格式化WXSS（结局篇）](https://www.jianshu.com/p/553cef04e262)
+
+说明一下：在 `tags-v1.0.0` 👉 [wechat_applet_demo-1.0.0](https://github.com/toFrankie/wechat_applet_demo/releases/tag/v1.0.0) 是利用了 Gulp.js，而最新方式已经移除 Gulp 及其相关依赖包。
 
 <hr/>
 
