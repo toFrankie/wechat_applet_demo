@@ -1,8 +1,9 @@
 {
   "files.associations": {
     "*.wxss": "css",
-    "*.wxs": "javascript",
     "*.acss": "css",
+    "*.wxs": "javascript",
+    "*.sjs": "javascript",
     "*.axml": "html",
     "*.wxml": "html",
     "*.swan": "html"
@@ -12,7 +13,7 @@
   "eslint.enable": true, // 是否开启 vscode 的 eslint
   "eslint.options": {
     // 指定 vscode 的 eslint 所处理的文件的后缀
-    "extensions": [".js", ".ts", ".tsx"]
+    "extensions": [".js", ".ts", ".tsx", "wxs", "sjs"]
   },
   "eslint.validate": ["javascript"],
   "editor.codeActionsOnSave": {
