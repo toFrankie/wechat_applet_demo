@@ -45,5 +45,26 @@ module.exports = {
   htmlWhitespaceSensitivity: 'css',
 
   // 换行符使用 lf
-  endOfLine: 'lf'
+  endOfLine: 'lf',
+
+  overrides: [
+    {
+      files: ['*.wxss', '*.acss'],
+      options: {
+        parser: 'css'
+      }
+    },
+    {
+      files: ['*.wxml', '*.axml'],
+      options: {
+        parser: 'html'
+      }
+    },
+    {
+      files: ['*.wxs', '*.sjs'],
+      options: {
+        parser: 'babel'
+      }
+    }
+  ]
 }
