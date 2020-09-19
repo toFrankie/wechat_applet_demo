@@ -11,13 +11,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint . --ext .js,.wxs,.sjs",
     "eslint:fix": "eslint --fix . --ext .js,.wxs,.sjs",
-    "prettier:fix": "prettier --config .prettierrc.js --write './**/*.{js,sjs,wxs,css,wxss,acss,wxml,axml,less,scss,json}'",
+    "prettier:fix": "prettier --config .prettierrc.js --write './**/*.{js,sjs,wxs,css,wxss,acss,wxml,axml,less,scss,json,md}'",
     "format:all": "npm-run-all -s prettier:fix eslint:fix",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
     "commitizen": "4.2.1",
+    "conventional-changelog-cli": "2.1.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "6.7.1",
     "eslint-config-alloy": "3.7.1",
@@ -39,11 +41,11 @@
       "prettier --config .prettierrc.js --write",
       "eslint --fix --ext .js"
     ],
-    "*.{json,wxml,axml,css,wxss,acss,wxml,axml,less,scss}": "prettier --config .prettierrc.js --write"
+    "*.{json,wxml,axml,css,wxss,acss,wxml,axml,less,scss,md}": "prettier --config .prettierrc.js --write"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
