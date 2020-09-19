@@ -568,7 +568,7 @@ commander@^6.0.0:
   resolved "https://registry.npm.taobao.org/commander/download/commander-6.1.0.tgz?cache=0&sync_timestamp=1598576050587&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-6.1.0.tgz#f8d722b78103141006b66f4c7ba1e97315ba75bc"
   integrity sha1-+Ncit4EDFBAGtm9Me6HpcxW6dbw=
 
-commitizen@^4.0.3, commitizen@^4.2.1:
+commitizen@4.2.1, commitizen@^4.0.3:
   version "4.2.1"
   resolved "https://registry.npm.taobao.org/commitizen/download/commitizen-4.2.1.tgz#3b098b16c6b1a37f0d129018dff6751b20cd3103"
   integrity sha1-OwmLFsaxo38NEpAY3/Z1GyDNMQM=
