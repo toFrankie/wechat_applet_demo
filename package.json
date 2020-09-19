@@ -12,10 +12,13 @@
     "eslint": "eslint . --ext .js,.wxs,.sjs",
     "eslint:fix": "eslint --fix . --ext .js,.wxs,.sjs",
     "prettier:fix": "prettier --config .prettierrc.js --write './**/*.{js,sjs,wxs,css,wxss,acss,wxml,axml,less,scss,json}'",
-    "format:all": "npm-run-all -s prettier:fix eslint:fix"
+    "format:all": "npm-run-all -s prettier:fix eslint:fix",
+    "commit": "git-cz"
   },
   "devDependencies": {
     "babel-eslint": "10.0.3",
+    "commitizen": "4.2.1",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "6.7.1",
     "eslint-config-alloy": "3.7.1",
     "eslint-config-prettier": "6.10.0",
@@ -37,5 +40,10 @@
       "eslint --fix --ext .js"
     ],
     "*.{json,wxml,axml,css,wxss,acss,wxml,axml,less,scss}": "prettier --config .prettierrc.js --write"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
