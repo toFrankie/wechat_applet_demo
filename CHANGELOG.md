@@ -1,4 +1,18 @@
-# [1.0.0](https://github.com/toFrankie/wechat_applet_demo/compare/v1.1.0...v1.0.0) (2020-09-20)
+# [1.0.0](https://github.com/toFrankie/wechat_applet_demo/compare/v1.1.1...v1.0.0) (2020-09-20)
+
+
+
+## [1.1.1](https://github.com/toFrankie/wechat_applet_demo/compare/v1.1.0...v1.1.1) (2020-09-20)
+
+
+### Bug Fixes
+
+* **none:** cz 提交测试 ([5be8966](https://github.com/toFrankie/wechat_applet_demo/commit/5be89668925b222876ad4c66ccedb71769a384f7))
+
+
+### BREAKING CHANGES
+
+* **none:** isolate scope bindings definition has changed.
 
 
 
