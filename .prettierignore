@@ -1,4 +1,4 @@
-# .prettierignore 文件配置 或者 CLI设置--ignore-path选项。
+# .prettierignore 文件配置或者 CLI 设置 --ignore-path 选项。
 *.min.js
 
 /node_modules
