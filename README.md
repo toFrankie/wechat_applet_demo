@@ -1,5 +1,7 @@
 # wechat_applet_demo
 
+> 如无意外不会更新了，请移步至 [cosscomb-mini](https://github.com/toFrankie/csscomb-mini)。
+
 利用 ESLint、Prettier、git hooks 等工具“一键偷懒”，哈哈。😆
 
 本项目说明放在[简书](https://www.jianshu.com/u/f4dac74bd955)更新：
